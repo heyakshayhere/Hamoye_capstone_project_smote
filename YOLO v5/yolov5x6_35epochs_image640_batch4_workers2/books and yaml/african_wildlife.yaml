@@ -1,0 +1,13 @@
+# train images path
+train: /content/gdrive/MyDrive/Datasets/african_wildlife/train_val/train
+
+# val images path
+val: /content/gdrive/MyDrive/Datasets/african_wildlife/train_val/val
+
+
+# Classes
+nc: 4  # number of classes
+names: ['buffalo','elephant','rhino','zebra']  # class names
+
+
+
