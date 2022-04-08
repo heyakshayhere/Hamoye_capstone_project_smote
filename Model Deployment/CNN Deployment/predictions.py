@@ -15,6 +15,7 @@ def load_image(image_file):
 	return img
 
 # Function to get the pipelined model
+@st.cache(ttl=48*3600)
 def check():
 
     #Loading the pre-trained model using Keras
@@ -81,9 +82,11 @@ def main():
          img = load_image(image_file)
          st.image(img,width=256)
 
-         #Loader for prrediction
+         #Loader for prediction
          with st.spinner('Predicting...'):
             prediction = output(full_pipeline,img)
+         #Showing prediction
          st.success(prediction)
+
 if __name__ == '__main__':
     main()
