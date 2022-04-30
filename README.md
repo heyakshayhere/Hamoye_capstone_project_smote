@@ -40,7 +40,7 @@ The original dataset was YOLO specific so our team split into two parts:
 
 ## 2. Team YOLO
 
-### [Deployed Model Link](https://share.streamlit.io/av84190875/yolo-africa/main/prediction.py)
+### [Deployed Model Link](http://african-wildlife.herokuapp.com/)
 
 ![YOLO](https://user-images.githubusercontent.com/42459801/162487411-8d82084e-2a56-4d51-8d97-cec60b715f8b.png)
 
